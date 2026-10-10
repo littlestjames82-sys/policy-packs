@@ -1,0 +1,23 @@
+{
+  "description": "Policy Packs for GhostGuard \u2014 tested governance rule sets for agent jobs. By Ghost Developer Studio.",
+  "license": "MIT",
+  "name": "policy-packs",
+  "private": false,
+  "scripts": {
+    "test": "../ghostguard/node_modules/.bin/tsx packs/social-poster/test/run.ts && ../ghostguard/node_modules/.bin/tsx packs/inbox-assistant/test/run.ts && ../ghostguard/node_modules/.bin/tsx packs/shopping-agent/test/run.ts && ../ghostguard/node_modules/.bin/tsx packs/research-agent/test/run.ts && ../ghostguard/node_modules/.bin/tsx packs/coding-agent/test/run.ts && ../ghostguard/node_modules/.bin/tsx packs/agency-client-work/test/run.ts && ../ghostguard/node_modules/.bin/tsx packs/marketplace-seller/test/run.ts && ../ghostguard/node_modules/.bin/tsx packs/home-assistant/test/run.ts"
+  },
+  "type": "module",
+  "version": "0.1.0",
+  "author": "Ghost Developer Studio",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/littlestjames82-sys/policy-packs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/littlestjames82-sys/policy-packs/issues"
+  },
+  "homepage": "https://github.com/littlestjames82-sys/policy-packs#readme",
+  "files": [
+    "packs"
+  ]
+}
