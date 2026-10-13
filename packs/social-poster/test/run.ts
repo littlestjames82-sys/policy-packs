@@ -12,7 +12,7 @@ import { readFileSync } from "node:fs";
 import {
   compilePolicy, evaluatePolicy, mergePolicyDocs,
   type PolicyContext, type PolicyDoc,
-} from "../../../../ghostguard/src/policy.js";
+} from "ghostguard";
 
 let passed = 0;
 function ok(name: string) { passed += 1; console.log(`  ✓ ${name}`); }

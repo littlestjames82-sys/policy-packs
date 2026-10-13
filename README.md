@@ -56,17 +56,13 @@ Oct 10, 2026 build report with per-pack results.
 
 ## Repository layout note
 
-This add-on imports the GhostGuard core engine from a **sibling checkout**:
-`../../ghostguard/dist/index.js` (its source and/or tests do; nothing in the
-core is modified). To run it, clone the core next to this repo so both folders
-share a parent directory:
+This add-on imports the GhostGuard core engine from the **published
+`ghostguard` package** (`"ghostguard": "^0.1.0"` in `package.json`; nothing
+in the core is modified). To run it, clone this repo and install:
 
 ```sh
-git clone https://github.com/littlestjames82-sys/ghostguard
 git clone https://github.com/littlestjames82-sys/policy-packs
-# build the core once so dist/ exists:
-cd ghostguard && npm run build && cd ..
-cd policy-packs && npm test
+cd policy-packs && npm install && npm test
 ```
 
 Part of the GhostGuard family by **Ghost Developer Studio**.
