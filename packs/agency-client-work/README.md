@@ -93,7 +93,7 @@ The pack ships its behavior tests; run them against your engine
 before you trust it (from the policy-packs root):
 
 ```
-../ghostguard/node_modules/.bin/tsx packs/agency-client-work/test/run.ts
+npx tsx packs/agency-client-work/test/run.ts
 ```
 
 11 checks: pack integrity, every verdict in the table, the

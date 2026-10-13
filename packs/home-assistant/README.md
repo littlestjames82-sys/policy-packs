@@ -119,7 +119,7 @@ The pack ships its behavior tests; run them against your engine
 before you trust it (from the policy-packs root):
 
 ```
-../ghostguard/node_modules/.bin/tsx packs/home-assistant/test/run.ts
+npx tsx packs/home-assistant/test/run.ts
 ```
 
 12 checks: pack integrity, every verdict in the table, both initiator

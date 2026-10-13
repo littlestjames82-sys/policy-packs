@@ -1,7 +1,7 @@
 // Research Agent pack — behavior tests.
 //
-// Run from ~/workspace/policy-packs:
-//   ../ghostguard/node_modules/.bin/tsx packs/research-agent/test/run.ts
+// Run from the policy-packs root:
+//   npx tsx packs/research-agent/test/run.ts
 //
 // These tests are part of the product: they execute the pack's
 // policy.json against the REAL GhostGuard engine (imported from the
