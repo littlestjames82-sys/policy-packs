@@ -1,4 +1,5 @@
 # Policy Packs for GhostGuard
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![Release](https://img.shields.io/github/v/release/littlestjames82-sys/policy-packs)](https://github.com/littlestjames82-sys/policy-packs/releases)
 
 **Pre-written, behavior-tested governance rule sets for agent jobs** — in
 GhostGuard's real policy format, each shipped with a test suite that proves
